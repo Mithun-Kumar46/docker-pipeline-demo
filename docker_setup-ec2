@@ -3,3 +3,19 @@
 #start and enable
 #docker run hello-world
 #docker images
+
+#docker ps -->running containers
+#docker ps -a -->all containers
+#docker rmi <image_id> -->remove image
+
+Run containers
+#docker run --name web01 -d -p 8080:80 nginx 
+#docker inspect web01
+#docker logs web01
+#curl http://localhost:80
+
+Remove containers and images
+#docker stop web01
+#docker rm web01
+#docker rmi nginx
+
