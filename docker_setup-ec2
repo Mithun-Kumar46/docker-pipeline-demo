@@ -1,1 +1,5 @@
 
+#yum install docker
+#start and enable
+#docker run hello-world
+#docker images
